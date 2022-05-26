@@ -60,8 +60,6 @@ function App() {
         setGameState(State.FAILED);
         setLeft(null);
         setRight(null);
-        // fetchRandomAnime().then(data => setLeft(data));
-        // fetchRandomAnime().then(data => setRight(data));
     }
 
     if (gameState == State.MAIN_MENU) {
