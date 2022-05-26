@@ -72,7 +72,7 @@ function App() {
 
     if (!left || !right) {
         return (
-            <div className="flex w-full h-full relative text-6xl w-full h-[100vh] justify-center items-center text-yellow-200 bg-gray-700">
+            <div className="flex w-full h-full relative text-6xl w-full h-[100vh] justify-center items-center text-yellow-200 bg-gray-900">
                 Loading...
             </div>
         )
