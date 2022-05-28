@@ -1,6 +1,6 @@
 export default function MainMenu({cb}: {cb: () => void}) {
     return (
-        <div className="flex h-screen items-center flex-col justify-center bg-gray-700 text-white gap-[25px] bg-center bg-cover relative" style={{backgroundImage: "url(https://cdn.otagifs.com/uploads/posts/a1OwGj/video_gif.gif)"}}>
+        <div className="flex h-screen items-center flex-col justify-center bg-gray-700 text-white gap-[25px] bg-center bg-cover relative text-center" style={{backgroundImage: "url(https://cdn.otagifs.com/uploads/posts/a1OwGj/video_gif.gif)"}}>
             <div className="bg-black opacity-[0.7] h-full w-full absolute"></div>
             <div className="flex flex-col items-center gap-[25px] z-[9999]">
                 <h3 className="font-bold text-3xl">Which anime is more popular?</h3>

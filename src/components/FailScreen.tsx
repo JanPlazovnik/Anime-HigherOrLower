@@ -38,7 +38,7 @@ export default function FailScreen({score, cb}: {score: number, cb: () => void})
     }, []);
 
     return (
-        <div className="flex h-screen items-center flex-col justify-center bg-gray-700 text-white bg-center bg-cover relative" style={{backgroundImage: `url(${result?.gif})`}}>
+        <div className="flex h-screen items-center flex-col justify-center bg-gray-700 text-white bg-center bg-cover relative text-center" style={{backgroundImage: `url(${result?.gif})`}}>
             <div className="bg-black opacity-[0.7] h-full w-full absolute"></div>
             <div className="flex flex-col items-center gap-[25px] z-[9999]">
                 <h3 className="font-bold text-2xl">You scored:</h3>
