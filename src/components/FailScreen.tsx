@@ -13,24 +13,18 @@ export default function FailScreen({score, cb}: {score: number, cb: () => void})
         console.log(score);
 
         if (score <= 2) {
-            console.log("LEQ 2");
-            
             resultObj.gif = "https://cdn.otagifs.com/uploads/posts/oYyepO/video_gif.gif";
             resultObj.message = "That's a terrible score! Put some effort into it!";
         }
         else if (score <= 3) {
-            console.log("LEQ 3");
-
             resultObj.gif = "https://cdn.otagifs.com/uploads/posts/n6u_V1/video_gif.gif";
             resultObj.message = "Is this too hard for you?";
         }
         else if (score <= 6) {
-            console.log("LEQ 6");
             resultObj.gif = "https://cdn.otagifs.com/uploads/posts/Q-Xs6O/video_gif.gif";
             resultObj.message = "Not a bad score, keep at it!"
         }
         else {
-            console.log("ELSE");
             resultObj.gif = "https://cdn.otagifs.com/uploads/posts/f1P-8i/video_gif.gif";
             resultObj.message = "You’re really really good at this! Good job!"
         }
