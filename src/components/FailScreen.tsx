@@ -10,7 +10,6 @@ export default function FailScreen({score, cb}: {score: number, cb: () => void})
 
     useEffect(() => {
         const resultObj = {} as Result;
-        console.log(score);
 
         if (score <= 2) {
             resultObj.gif = "https://cdn.otagifs.com/uploads/posts/oYyepO/video_gif.gif";
